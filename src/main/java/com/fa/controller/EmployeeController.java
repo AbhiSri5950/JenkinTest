@@ -45,7 +45,7 @@ public class EmployeeController {
 		Employee emp = new Employee();
 		emp.setEmpId(postEmployee.getEmpId());
 		emp.setEmpName(postEmployee.getEmpName());
-		
+		hello
 		String str=employeeService.m1("abhi");
 		System.out.println(str);
 		return emp;
